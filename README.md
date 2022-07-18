@@ -14,7 +14,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ## Overview
 
-### 💪🏻 The challenge
+### The challenge 💪🏻
 
 Users should be able to:
 
@@ -22,17 +22,17 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
-### 🖥 Screenshot
+### Screenshot 🖥
 
 ![](./src/images/Solution.png)
 
-### 🔗 Links
+### Links 🔗
 
-- Live Site URL: [Click here](https://carlotablanco.github.io/advice-generator-app/)
+- Live Site URL: [Click here](https://carlotablanco.github.io/Advice-generator-app/)
 
 ## My process
 
-### 🛠 Built with
+### Built with 🛠
 
 - Semantic HTML5 markup
 - SCSS custom properties
@@ -40,6 +40,6 @@ Users should be able to:
 - Javascript
 - Mobile-first workflow
 
-## 🖌 Author
+## Author 🖌
 
 - Website - [Carlota Blanco](https://carlotablanco.es/)
