@@ -2,18 +2,6 @@
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Author](#author)
-
-## Overview
-
 ### The challenge 💪🏻
 
 Users should be able to:
@@ -29,8 +17,6 @@ Users should be able to:
 ### Links 🔗
 
 - Live Site URL: [Click here](https://carlotablanco.github.io/Advice-generator-app/)
-
-## My process
 
 ### Built with 🛠
 
