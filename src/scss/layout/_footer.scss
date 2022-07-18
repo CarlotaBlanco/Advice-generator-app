@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 10%;
+  margin-top: 15%;
 
   &__attribution {
     color: $light-cyan;
@@ -10,6 +10,6 @@
     }
   }
   @media all and(min-width:1440px) {
-    margin-top: 5%;
+    margin-top: 10%;
   }
 }
