@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";const adviceId=document.querySelector(".js-advice-id"),advicePhrase=document.querySelector(".js-advice-phrase"),diceButton=document.querySelector(".js-dice-button");function getApiData(){fetch("https://api.adviceslip.com/advice").then(e=>e.json()).then(e=>{adviceId.innerHTML="Advice # "+e.slip.id,advicePhrase.innerHTML=`" ${e.slip.advice}"`})}function getRandomAdvice(e){e.preventDefault(),getApiData()}getApiData(),diceButton.addEventListener("click",getRandomAdvice);
