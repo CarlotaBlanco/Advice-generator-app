@@ -8,7 +8,7 @@ function getApiData() {
     .then((response) => response.json())
     .then((data) => {
       adviceId.innerHTML = `Advice # ${data.slip.id}`;
-      advicePhrase.innerHTML = `"${data.slip.advice}"`;
+      advicePhrase.innerHTML = `" ${data.slip.advice}"`;
     });
 }
 
