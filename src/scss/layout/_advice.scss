@@ -43,6 +43,8 @@
     &--icon {
       width: 1.7rem;
       height: 1.7rem;
+      background-image: url('../images/icon-dice.svg');
+      background-size: cover;
     }
   }
   &__dice:hover {
