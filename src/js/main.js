@@ -1,6 +1,7 @@
 'use strict';
 const adviceId = document.querySelector('.js-advice-id');
 const advicePhrase = document.querySelector('.js-advice-phrase');
+const diceButton = document.querySelector('.js-dice-button');
 
 function getApiData() {
   fetch(`https://api.adviceslip.com/advice`)
@@ -11,4 +12,11 @@ function getApiData() {
     });
 }
 
+function getRandomAdvice(event) {
+  event.preventDefault();
+  getApiData();
+}
+
 getApiData();
+
+diceButton.addEventListener('click', getRandomAdvice);
