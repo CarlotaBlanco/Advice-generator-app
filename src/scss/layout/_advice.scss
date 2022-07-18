@@ -1,0 +1,47 @@
+.advice {
+  background-color: $dark-grayish-blue;
+  border-radius: 10px 10px 10px 10px;
+  padding: 2rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    text-transform: uppercase;
+    color: $neon-green;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    padding: 1rem;
+  }
+  &__phrase {
+    font-size: 28px;
+    font-weight: 800;
+    color: $light-cyan;
+    padding: 1rem;
+  }
+  &__divider {
+    margin-top: 1rem;
+  }
+  &__dice {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: $neon-green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translatey(65%);
+    &--icon {
+      width: 1.7rem;
+      height: 1.7rem;
+    }
+  }
+  &__dice:hover {
+    box-shadow: 0px 0px 52px 0px $neon-green;
+  }
+  @media all and(min-width:1440px) {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

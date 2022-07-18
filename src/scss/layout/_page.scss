@@ -1,0 +1,15 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  background-color: $dark-blue;
+  font-family: $font-main;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
